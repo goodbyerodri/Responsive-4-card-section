@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+    /* border: red 5px solid; */
+    padding: 0.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+}
+
+table {
+
+    width: 100%;
+    box-shadow: 10px 5px hsl(0, 0%, 98%);
+
+}
+.mainwrapper {
+
+    /* border: blue 5px solid; */
+    padding: 0.2rem;
+    margin-top: 5rem;
+
+}
+
+.headerwrap {
+    /* border: pink 5px solid; */
+    text-align: center;
+    padding: 0.2rem
+}
+
+.headerwrap h2{
+    padding: 0.2rem;
+}
+
+.headerwrap p {
+    padding: 0.5rem 0 3rem 0;
+    line-height: 1.5rem;
+    font-weight: 200;
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mainwrap {
+    /* border: green 5px solid; */
+    display: flex;
+    padding: 0.2rem;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1, .item2, .item3 {
+    /* border: black 5px solid; */
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.karma {
+    margin-top: 2rem;
+}
+
+
+
+.top1,
+.top2,
+.top3,
+.top4 {
+
+    height: 0.5rem;
+    border-radius: 1rem 1rem 0 0;
+
+}
+
+.top1 {
+    background-color: hsl(180, 62%, 55%);
+}
+
+.top2 {
+    background-color: hsl(0, 78%, 62%);
+}
+
+.top3 {
+    background-color: hsl(34, 97%, 64%);
+
+}
+
+.top4 {
+    background-color: hsl(212, 86%, 64%);
+
+}
+
+
+
+.title {
+    padding: 1.5rem 0 0.5rem 1.5rem;
+    font-weight: 600;
+}
+
+.txt {
+    font-weight: 200;
+    padding: 0 0 0 1.5rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: end;
+    padding: 2rem;
+}
+
+@media (max-width:476px) {
+
+    .mainwrap {
+        display: block;
+    }
+}
+
